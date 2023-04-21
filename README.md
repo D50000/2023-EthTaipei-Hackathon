@@ -14,6 +14,12 @@ An idea of new service flow to improve security, convenience and integrate with 
 
 ## Demo Platform:
 
+Support over all platform.
+
 - ZeroPass-Client
 - ZeroPass-BackOffice
 - ZeroPass-ThirdParty
+
+ps:
+
+- web: npx expo install react-native-web@~0.18.10 react-dom@18.2.0 @expo/webpack-config@^18.0.1
