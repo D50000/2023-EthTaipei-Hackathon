@@ -3,6 +3,8 @@ import { StyleSheet, View, Text, Button } from "react-native";
 import { createAppContainer } from "react-navigation";
 import { createStackNavigator } from "react-navigation-stack";
 import { NavigationStackScreenComponent } from "react-navigation-stack";
+import { Input } from "@rneui/themed";
+import ImageUpload from "./src/modules/ImageUpload";
 
 type LoginScreenProps = {
   navigation: any;
@@ -14,6 +16,7 @@ const LoginScreen: NavigationStackScreenComponent<LoginScreenProps> = ({
   return (
     <View style={styles.container}>
       <Text style={styles.h1}>Web3 Login</Text>
+      <Input style={styles.address} placeholder="Enter Your Wallet Address" />
       <Button
         title=">>> Sign In >>>"
         onPress={() => navigation.navigate("Account")}
@@ -32,6 +35,7 @@ const AccountScreen: NavigationStackScreenComponent<AccountScreenProps> = ({
   return (
     <View style={styles.container}>
       <Text style={styles.h1}>xxx User</Text>
+      <ImageUpload></ImageUpload>
       <Button
         color="#d4ac2d"
         title="<<< Sign Out  <<<"
@@ -71,5 +75,9 @@ const styles = StyleSheet.create({
     height: 50,
     display: "flex",
     justifyContent: "center",
+  },
+  address: {
+    width: "80%",
+    display: "flex",
   },
 });
