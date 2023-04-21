@@ -6,6 +6,28 @@ import { NavigationStackScreenComponent } from "react-navigation-stack";
 import { Input } from "@rneui/themed";
 import ImageUpload from "./src/modules/ImageUpload";
 
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  h1: {
+    fontSize: 35,
+  },
+  button: {
+    marginTop: 50,
+    width: "90%",
+    height: 50,
+    display: "flex",
+    justifyContent: "center",
+  },
+  address: {
+    width: "80%",
+    display: "flex",
+  },
+});
+
 type LoginScreenProps = {
   navigation: any;
 };
@@ -59,25 +81,3 @@ export default class App extends Component {
     return <AppContainer />;
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: "center",
-    justifyContent: "center",
-  },
-  h1: {
-    fontSize: 35,
-  },
-  button: {
-    marginTop: 50,
-    width: "90%",
-    height: 50,
-    display: "flex",
-    justifyContent: "center",
-  },
-  address: {
-    width: "80%",
-    display: "flex",
-  },
-});
