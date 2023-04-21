@@ -22,4 +22,12 @@ Support over all platform.
 
 ps:
 
-- web: npx expo install react-native-web@~0.18.10 react-dom@18.2.0 @expo/webpack-config@^18.0.1
+- Web:
+  - Install dependencies  
+    `npx expo install react-native-web@~0.18.10 react-dom@18.2.0 @expo/webpack-config@^18.0.1`
+- Android:
+  - Through Device  
+    Install **Expo Go** app and run `npx expo start --tunnel` and scan the QR code.
+- IOS:
+  - Through Device  
+    Install **Expo Go** app and run `npx expo start --tunnel` and scan the QR code.
