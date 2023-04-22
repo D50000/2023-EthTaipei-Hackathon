@@ -39,6 +39,7 @@ const LoginScreen: NavigationStackScreenComponent<LoginScreenProps> = ({
     <View style={styles.container}>
       <Text style={styles.h1}>Web3 Login</Text>
       <Input style={styles.address} placeholder="Enter Your Wallet Address" />
+      {/* address 0x13A1DC2F092E3a6fA8B1bED3C214453d63512fD3 */}
       <Button
         title=">>> Sign In >>>"
         onPress={() => navigation.navigate("Account")}
@@ -57,7 +58,9 @@ const AccountScreen: NavigationStackScreenComponent<AccountScreenProps> = ({
   return (
     <View style={styles.container}>
       <Text style={styles.h1}>xxx User</Text>
-      <ImageUpload></ImageUpload>
+      <ImageUpload label="ID (front side)" />
+      <ImageUpload label="ID (back side)" />
+      <ImageUpload label="Driver License" />
       <Button
         color="#d4ac2d"
         title="<<< Sign Out  <<<"

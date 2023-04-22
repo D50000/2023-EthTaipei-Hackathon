@@ -1,6 +1,10 @@
 import React, { useState } from "react";
-import { View, Button, Image, StyleSheet } from "react-native";
+import { View, Text, Button, Image, StyleSheet } from "react-native";
 import * as ImagePicker from "expo-image-picker";
+
+interface Props {
+  label: string;
+}
 
 const styles = StyleSheet.create({
   container: {
@@ -13,26 +17,30 @@ const styles = StyleSheet.create({
     height: 200,
     marginBottom: 10,
   },
+  h2: {
+    fontSize: 25,
+  },
 });
 
-const ImageUpload = () => {
+const ImageUpload = ({ label }: Props) => {
   const [image, setImage] = useState("");
 
   const pickImage = async () => {
     const result = await ImagePicker.launchImageLibraryAsync({
-      mediaTypes: ImagePicker.MediaTypeOptions.Images,
+      mediaTypes: ImagePicker.MediaTypeOptions.All,
       allowsEditing: true,
       aspect: [1, 1],
-      quality: 0.5,
+      quality: 1,
     });
 
-    if (!result.cancelled) {
-      setImage(result.uri);
+    if (!result.canceled) {
+      setImage(result.assets[0]?.uri ?? "");
     }
   };
 
   return (
     <View style={styles.container}>
+      <Text style={styles.h2}>{label}</Text>
       {image ? (
         <Image source={{ uri: image }} style={styles.image} />
       ) : (
