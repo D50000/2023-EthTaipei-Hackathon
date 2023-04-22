@@ -4,6 +4,7 @@ import * as ImagePicker from "expo-image-picker";
 
 interface Props {
   label: string;
+  onImageSelect: (image: string) => void;
 }
 
 const styles = StyleSheet.create({
@@ -22,7 +23,7 @@ const styles = StyleSheet.create({
   },
 });
 
-const ImageUpload = ({ label }: Props) => {
+const ImageUpload = ({ label, onImageSelect }: Props) => {
   const [image, setImage] = useState("");
 
   const pickImage = async () => {
@@ -34,7 +35,9 @@ const ImageUpload = ({ label }: Props) => {
     });
 
     if (!result.canceled) {
-      setImage(result.assets[0]?.uri ?? "");
+      const imageUri = result.assets[0]?.uri ?? "";
+      setImage(imageUri);
+      onImageSelect(imageUri);
     }
   };
 
