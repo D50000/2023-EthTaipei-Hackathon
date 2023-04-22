@@ -1330,7 +1330,7 @@
   dependencies:
     "@ethersproject/bytes" "^5.7.0"
 
-"@ethersproject/bignumber@^5.7.0":
+"@ethersproject/bignumber@^5.5.0", "@ethersproject/bignumber@^5.7.0":
   version "5.7.0"
   resolved "https://registry.yarnpkg.com/@ethersproject/bignumber/-/bignumber-5.7.0.tgz#e2f03837f268ba655ffba03a57853e18a18dc9c2"
   integrity sha512-n1CAdIHRWjSucQO3MC1zPSVgV/6dy/fjL9pMrPP9peL+QxEg9wOsVqwD4+818B6LUEtaXzVHQiuivzRoxPxUGw==
@@ -1395,6 +1395,14 @@
   dependencies:
     "@ethersproject/logger" "^5.7.0"
 
+"@ethersproject/random@^5.5.1":
+  version "5.7.0"
+  resolved "https://registry.yarnpkg.com/@ethersproject/random/-/random-5.7.0.tgz#af19dcbc2484aae078bb03656ec05df66253280c"
+  integrity sha512-19WjScqRA8IIeWclFme75VMXSBvi4e6InrUNuaR4s5pTF2qNhcGdCUwdxUVGtDDqC00sDLCO93jPQoDUH4HVmQ==
+  dependencies:
+    "@ethersproject/bytes" "^5.7.0"
+    "@ethersproject/logger" "^5.7.0"
+
 "@ethersproject/rlp@^5.7.0":
   version "5.7.0"
   resolved "https://registry.yarnpkg.com/@ethersproject/rlp/-/rlp-5.7.0.tgz#de39e4d5918b9d74d46de93af80b7685a9c21304"
@@ -1415,7 +1423,7 @@
     elliptic "6.5.4"
     hash.js "1.1.7"
 
-"@ethersproject/strings@^5.7.0":
+"@ethersproject/strings@^5.6.1", "@ethersproject/strings@^5.7.0":
   version "5.7.0"
   resolved "https://registry.yarnpkg.com/@ethersproject/strings/-/strings-5.7.0.tgz#54c9d2a7c57ae8f1205c88a9d3a56471e14d5ed2"
   integrity sha512-/9nu+lj0YswRNSH0NXYqrh8775XNyEdUQAuf3f+SmOrnVewcJ5SBNAjF7lpgehKi4abvNNXyf+HX86czCdJ8Mg==
@@ -1855,6 +1863,17 @@
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.2.0.tgz#8be36a1f66f3265389e90b5f9c9962146758f728"
   integrity sha512-sXo/qW2/pAcmT43VoRKOJbDOfV3cYpq3szSVfIThQXNt+E4DfKj361vaAt3c88U5tPUxzEswam7GW48PJqtKAg==
+
+"@semaphore-protocol/identity@^3.7.0":
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/@semaphore-protocol/identity/-/identity-3.7.0.tgz#e5c7a1d075217c2fd8a28a5e43e9222335a05d02"
+  integrity sha512-scCR21ptHgalu0z8T7YymuzMk0wn/HsQ7KUhnXt0jl1EmdB7tyLcswVoFlqTsk1i/Bb5hKC0XUzpsdNn7dyK6Q==
+  dependencies:
+    "@ethersproject/bignumber" "^5.5.0"
+    "@ethersproject/keccak256" "^5.7.0"
+    "@ethersproject/random" "^5.5.1"
+    "@ethersproject/strings" "^5.6.1"
+    js-sha512 "^0.8.0"
 
 "@sinclair/typebox@^0.24.1":
   version "0.24.51"
@@ -6915,6 +6934,11 @@ js-sha3@^0.5.7:
   version "0.5.7"
   resolved "https://registry.yarnpkg.com/js-sha3/-/js-sha3-0.5.7.tgz#0d4ffd8002d5333aabaf4a23eed2f6374c9f28e7"
   integrity sha512-GII20kjaPX0zJ8wzkTbNDYMY7msuZcTWk8S5UOh6806Jq/wz1J8/bnr8uGU0DAUmYDjj2Mr4X1cW8v/GLYnR+g==
+
+js-sha512@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/js-sha512/-/js-sha512-0.8.0.tgz#dd22db8d02756faccf19f218e3ed61ec8249f7d4"
+  integrity sha512-PWsmefG6Jkodqt+ePTvBZCSMFgN7Clckjd0O7su3I0+BW2QWUTJNzjktHsztGLhncP2h8mcF9V9Y2Ha59pAViQ==
 
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
