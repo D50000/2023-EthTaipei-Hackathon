@@ -4,7 +4,7 @@ For [**EthTaipei-hackathon**](https://taikai.network/ethtaipei/hackathons/hackat
 
 - [Project Ideas, Competition Rules](https://docs.google.com/document/d/1P1IHRy7ix4IYtiTw7-Pmn9gFjAdUsHQrz0ZSRZtfEEE/edit#)
 - Prize and Categories
-  ![](https://github.com/D50000/fighting-game-2D/blob/main/archive/categories.jpg)
+  ![](https://github.com/D50000/2023-EthTaipei-Hackathon/blob/main/archive/categories.jpg)
 
 ## [ZeroChain](https://taikai.network/ethtaipei/hackathons/hackathon/projects/clgsr3qg96196390101256ssyd5/idea)
 
@@ -14,11 +14,11 @@ For [**EthTaipei-hackathon**](https://taikai.network/ethtaipei/hackathons/hackat
 - Data Flow: https://docs.google.com/document/d/1fcTVqekdQlz07ijKKUNNiT5kG-a0v7UOIoywtdSMd7Y/edit
 
 - How  
-  ![](https://github.com/D50000/fighting-game-2D/blob/main/archive/how.jpg)
+  ![](https://github.com/D50000/2023-EthTaipei-Hackathon/blob/main/archive/how.jpg)
 - What  
-  ![](https://github.com/D50000/fighting-game-2D/blob/main/archive/what.jpg)
+  ![](https://github.com/D50000/2023-EthTaipei-Hackathon/blob/main/archive/what.jpg)
 - Why  
-  ![](https://github.com/D50000/fighting-game-2D/blob/main/archive/why.jpg)
+  ![](https://github.com/D50000/2023-EthTaipei-Hackathon/blob/main/archive/why.jpg)
 - [Presentation Detail](https://taikai.network/ethtaipei/hackathons/hackathon/projects/clgsr3qg96196390101256ssyd5/idea)
 
 ## Competition Result:
