@@ -3,7 +3,7 @@
 For [**EthTaipei-hackathon**](https://taikai.network/ethtaipei/hackathons/hackathon/prizes) competition.
 
 - [Project Ideas, Competition Rules](https://docs.google.com/document/d/1P1IHRy7ix4IYtiTw7-Pmn9gFjAdUsHQrz0ZSRZtfEEE/edit#)
-- Prize and Categories
+- [Prize and Categories](https://taikai.network/ethtaipei/hackathons/hackathon/categories)
   ![](https://github.com/D50000/2023-EthTaipei-Hackathon/blob/main/archive/categories.jpg)
 
 ## [ZeroChain](https://taikai.network/ethtaipei/hackathons/hackathon/projects/clgsr3qg96196390101256ssyd5/idea)
@@ -13,12 +13,11 @@ For [**EthTaipei-hackathon**](https://taikai.network/ethtaipei/hackathons/hackat
 - Scenarios: https://autopass.notion.site/ETH-Taipei-Hackathon-6c2e9a5f561147f8a43c3f3ef1c9fc54
 - Data Flow: https://docs.google.com/document/d/1fcTVqekdQlz07ijKKUNNiT5kG-a0v7UOIoywtdSMd7Y/edit
 
-- How  
+  ![](https://github.com/D50000/2023-EthTaipei-Hackathon/blob/main/archive/why.jpg)  
   ![](https://github.com/D50000/2023-EthTaipei-Hackathon/blob/main/archive/how.jpg)
-- What  
+
   ![](https://github.com/D50000/2023-EthTaipei-Hackathon/blob/main/archive/what.jpg)
-- Why  
-  ![](https://github.com/D50000/2023-EthTaipei-Hackathon/blob/main/archive/why.jpg)
+
 - [Presentation Detail](https://taikai.network/ethtaipei/hackathons/hackathon/projects/clgsr3qg96196390101256ssyd5/idea)
 
 ## Competition Result:
@@ -26,8 +25,8 @@ For [**EthTaipei-hackathon**](https://taikai.network/ethtaipei/hackathons/hackat
 [ETHTaipei Hackathon (April 21 - 23) - All Participants Projects](https://taikai.network/ethtaipei/hackathons/hackathon/projects)
 
 - [Result & Prize](https://twitter.com/EthTaipei/status/1652953655723855872)
-- We Win:
-  ![](https://github.com/D50000/fighting-game-2D/blob/main/archive/zeroChain.jpg)
+- **We Win:** 🏆 🏅 👏  
+  ![](https://github.com/D50000/2023-EthTaipei-Hackathon/blob/main/archive/zeroChain.jpg)
 
 ## Demo Platform:
 
