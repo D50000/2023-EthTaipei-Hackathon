@@ -14,11 +14,10 @@ For [**EthTaipei-hackathon**](https://taikai.network/ethtaipei/hackathons/hackat
 - Data Flow: https://docs.google.com/document/d/1fcTVqekdQlz07ijKKUNNiT5kG-a0v7UOIoywtdSMd7Y/edit
 
   ![](https://github.com/D50000/2023-EthTaipei-Hackathon/blob/main/archive/why.jpg)  
-  ![](https://github.com/D50000/2023-EthTaipei-Hackathon/blob/main/archive/how.jpg)
-
+  ![](https://github.com/D50000/2023-EthTaipei-Hackathon/blob/main/archive/how.jpg)  
   ![](https://github.com/D50000/2023-EthTaipei-Hackathon/blob/main/archive/what.jpg)
 
-- [Presentation Detail](https://taikai.network/ethtaipei/hackathons/hackathon/projects/clgsr3qg96196390101256ssyd5/idea)
+- **[Presentation Detail](https://taikai.network/ethtaipei/hackathons/hackathon/projects/clgsr3qg96196390101256ssyd5/idea)**
 
 ## Competition Result:
 
@@ -38,15 +37,15 @@ Support over all platform.
 - ZeroPass-meta-mask
   <details>
   <summary>Host Server:</summary>
-  - Web:
-    - Install dependencies  
-      `npx expo install react-native-web@~0.18.10 react-dom@18.2.0 @expo/webpack-config@^18.0.1`
-  - Android:
-    - Through Device  
-      Install **Expo Go** app and run `npx expo start --tunnel` and scan the QR code.
-  - IOS:
-    - Through Device  
-      Install **Expo Go** app and run `npx expo start --tunnel` and scan the QR code.
+- Web:
+  - Install dependencies  
+    `npx expo install react-native-web@~0.18.10 react-dom@18.2.0 @expo/webpack-config@^18.0.1`
+- Android:
+  - Through Device  
+    Install **Expo Go** app and run `npx expo start --tunnel` and scan the QR code.
+- IOS:
+  - Through Device  
+   Install **Expo Go** app and run `npx expo start --tunnel` and scan the QR code.
   </details>
 
 **Back-end:**
