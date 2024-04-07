@@ -27,6 +27,9 @@ For [**EthTaipei-hackathon**](https://taikai.network/ethtaipei/hackathons/hackat
 - **We Win:** 🏆 🏅 👏  
   ![](https://github.com/D50000/2023-EthTaipei-Hackathon/blob/main/archive/zeroChain.jpg)
 
+- [Proof of Attendance Protocol](https://collectors.poap.xyz/scan/0xc8601255383d5ccdcfae9bc42f837fd57e300812)  
+  ![](https://github.com/D50000/2023-EthTaipei-Hackathon/blob/main/archive/poap.jpg)
+
 ## Demo Platform:
 
 Support over all platform.
