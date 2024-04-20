@@ -27,7 +27,8 @@ For [**EthTaipei-hackathon**](https://taikai.network/ethtaipei/hackathons/hackat
 - **We Win:** 🏆 🏅 👏  
   ![](https://github.com/D50000/2023-EthTaipei-Hackathon/blob/main/archive/zeroChain.jpg)
 
-- [Proof of Participation](ttps://github.com/D50000/2023-EthTaipei-Hackathon/blob/main/archive/pop.jpg)
+- [Proof of Participation](https://polygonscan.com/nft/0x115cc61a1980295e43f813adec68769c50057088/825)  
+  ![](https://github.com/D50000/2023-EthTaipei-Hackathon/blob/main/archive/pop.jpg)
 
 ## Demo Platform:
 
